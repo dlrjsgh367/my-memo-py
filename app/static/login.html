@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>로그인</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2>로그인</h2>
+            <form id="loginForm">
+                <label for="id">ID</label>
+                <input type="text" id="id" name="id" required />
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+                <button type="submit">로그인</button>
+                <p id="errorMessage" class="error"></p>
+            </form>
+            <div>
+                <p>회원가입이 아직 안 되어 있나요? <a href="/static/register.html">회원가입</a></p>
+            </div>
+        </div>
+    </body>
+</html>
